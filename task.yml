@@ -1,0 +1,7 @@
+- hosts: Web_Server
+  roles:
+  - webserver
+
+- hosts: Load_Balancer
+  roles:
+  - loadbalancer
